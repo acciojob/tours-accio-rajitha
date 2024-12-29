@@ -39,7 +39,8 @@ const tourData = [
     "image": "https://dl.airtable.com/.attachments/3feee7a93af0f4f809312132090c9a80/58e3e8ec/poland.jpeg",
     "price": "2,595"
   }
-];
+]
+
 
 
 
