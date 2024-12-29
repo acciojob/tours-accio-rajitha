@@ -60,7 +60,7 @@ const App = () => {
 
   if (tours.length === 0) {
     return (
-      <div>
+      <div id='main'>
         <p>No tours left.</p>
         <button onClick={() => setTours(tourData)}>Refresh</button>
       </div>
@@ -68,7 +68,7 @@ const App = () => {
   }
 
   return (
-    <div>
+    <div id='main'>
       <Tours tours={tours} removeTour={removeTour} />
     </div>
   );
