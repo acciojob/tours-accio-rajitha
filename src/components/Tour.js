@@ -17,7 +17,7 @@ const Tour = ({ tour, removeTour }) => {
           id={`see-more-${id}`} // Dynamic ID remains as expected by the test
           onClick={() => setShowInfo(!showInfo)}
         >
-          {showInfo ? 'Show less' : 'See more'} {/* Updated button text */}
+          {showInfo ? 'Show less' : 'See more'} 
         </button>
       </p>
       <button id={`delete-btn-${id}`} onClick={() => removeTour(id)}>
